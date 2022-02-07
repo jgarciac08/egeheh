@@ -8,7 +8,7 @@ import Ejercicio3 from './components/Ejercicio3';
 export default function App() {
   return (
     <>
-      <Navbar />
+      <BarraNavegacion />
       <h1>Desarrollo de Interfaces: Examen React.js </h1>
       <p>
         Resuelve los ejercicios propuestos en los distintos apartados de la
