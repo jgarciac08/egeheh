@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import BarraNavegacion from './components/BarraNavegacion';
-import { MenuItems } from './data/MenuItems';
+import { MenuNavegacion } from './data/MenuNavegacion';
 
 export function App() {
   return (
     <Router>
       <BarraNavegacion />      
-      {MenuItems.map((item) => {
+      {MenuNavegacion.map((item) => {
         return (
           <Route
             key={item.id}

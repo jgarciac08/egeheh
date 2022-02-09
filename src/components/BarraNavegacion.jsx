@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { MenuItems } from '../data/MenuItems';
+import { MenuNavegacion } from '../data/MenuNavegacion';
 import './header.css';
 
 class BarraNavegacion extends React.Component {
@@ -26,7 +26,13 @@ class BarraNavegacion extends React.Component {
             className="justify-content-end"
           >
             <Nav>
-              
+            {MenuNavegacion.map((item) => {
+                return (
+                  <Nav.Link as={Link} to={item.path}>
+                    {item.title}
+                  </Nav.Link>
+                );
+              })}
             </Nav>
           </Navbar.Collapse>
         </Container>
