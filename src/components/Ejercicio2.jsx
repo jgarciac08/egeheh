@@ -7,7 +7,7 @@ class Ejercicio2 extends React.Component {
 
   render() {
     return (
-      <div id="ej2">
+      <div>
         <h2>Ejercicio 2</h2>
         <ul>
           <li>
@@ -38,5 +38,5 @@ class Ejercicio2 extends React.Component {
     );
   }
 }
-
 export default Ejercicio2;
+

@@ -1,7 +1,6 @@
-import Ejercicio1 from '../components/Ejercicio1';
-import Ejercicio2 from '../components/Ejercicio2';
-import Ejercicio3 from '../components/Ejercicio3';
-import App from '../App';
+import { Ejercicio1 } from '../components/Ejercicio1';
+import { Ejercicio2 } from '../components/Ejercicio2';
+import { Ejercicio3 } from '../components/Ejercicio3';
 
 
 export const MenuItems = [
@@ -22,11 +21,5 @@ export const MenuItems = [
     path: '/ejercicio3',
     title: 'Ejercicio 3',
     component: Ejercicio3,
-  },
-  {
-    id: 4,
-    path: '/app',
-    title: 'Home',
-    component: App,
   },
 ];
